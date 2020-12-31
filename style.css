@@ -1,0 +1,35 @@
+canvas{  
+    animation: mymove ;
+    animation-duration:3s;
+    animation-timing-function: ease;
+   animation-iteration-count: 1;
+   box-shadow: 1px 1px 38px red;
+   border :5px dotted red
+}
+
+@keyframes mymove {
+    from {left: 0px; box-shadow: 1px 1px 38px red; border :5px dotted red;}
+    to {left: 643px; box-shadow:1px 1px 38px yellow; border :5px dotted yellow;}
+}
+
+.btn-warning{
+    font-size : 25px !important;
+    box-shadow: 1px 1px 50px orange;
+}
+.btn-warning:hover{
+    font-size : 27px !important;
+    box-shadow: 1px 1px 50px rgb(255, 123, 0);
+}
+
+.btn-primary:hover{
+    background-color: rgb(0, 188, 217);
+}
+
+.btn-info:hover{
+    background-color: rgb(73, 63, 255);
+}
+
+hr{
+    background-color: black;
+    height: 2px; 
+}
